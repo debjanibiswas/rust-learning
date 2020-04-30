@@ -1,3 +1,4 @@
+// The first project created with cargo
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, World!");
 }
