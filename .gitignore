@@ -1,0 +1,4 @@
+hello_world/target/*
+hello_cargo/target/*
+guessing_game/target/*
+variables/target/*
