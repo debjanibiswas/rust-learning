@@ -21,6 +21,31 @@ fn main() {
     // Using a function returning a value
     let c = plus_one(5);
     println!("The value of plus_one is: {}", c);
+
+    // Example with Control flow (if else statements)
+    if c < 2 {
+        println!("Number less than 50!");
+    }
+    else {
+        println!("Number is not less than 50!");
+    }
+
+    // An example with a loop
+    let mut counter = 0;
+    let result = loop {
+        counter = counter + 1;
+
+        if counter == 10 {
+            break counter * 2; // The loop will break when counter is 10, and this value will be in result
+        }
+    }; // semicolon indicates assignment of value to result
+
+    println!("Result from loop is: {}", result);
+
+    // An example with reverse and range
+    for number in (1..4).rev() {
+        println!("{}!", number);
+    }
 }
 
 
